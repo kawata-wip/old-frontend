@@ -69,7 +69,6 @@ class P {
 		printAdminPanel('primary', 'fa fa-gamepad fa-5x', $submittedScores, 'Submitted scores', number_format($submittedScoresFull));
 		printAdminPanel('yellow', 'fa fa-skull fa-5x', $totalScores, 'Total plays', number_format($totalScoresFull));
 		printAdminPanel('green', 'fa fa-street-view fa-5x', $onlineUsers, 'Online users');
-		printAdminPanel('green', 'fa fa-dot-circle fa-5x', number_format($totalPP), 'Sum of weighted PP');
 		echo '</div><div style="display: flex; justify-content: center;">';
 		printAdminPanel('red', 'fa fa-flag fa-5x', number_format($reports['count']), 'Unassigned reports');
 		printAdminPanel('yellow', 'fa fa-music fa-5x', number_format($rankRequests['count']), 'Rank requests');
